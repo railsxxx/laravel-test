@@ -31,3 +31,5 @@ zend_extension=/usr/lib/php/20210902/xdebug.so
 ---“pathMappings”: {
 ---“C:/xampp/htdocs/{your project-name}” : “${workspaceFolder}”
 ---},
+#git clear history
+https://www.shellhacks.com/git-remove-all-commits-clear-git-history-local-remote/
