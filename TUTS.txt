@@ -1,0 +1,12 @@
+#docs
+https://laravel.com/docs
+
+https://github.com/gothinkster/laravel-realworld-example-app
+
+#sqlite
+https://devtonight.com/questions/how-to-use-sqlite-database-in-laravel
+https://devtonight.com/questions/how-to-fix-laravel-sqlite-database-does-not-exist-error
+https://www.sqlitetutorial.net/
+
+#php formatter
+https://localcoder.org/format-code-command-for-php-html-in-visual-studio-code
