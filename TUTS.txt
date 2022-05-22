@@ -33,3 +33,24 @@ zend_extension=/usr/lib/php/20210902/xdebug.so
 ---},
 #git clear history
 https://www.shellhacks.com/git-remove-all-commits-clear-git-history-local-remote/
+
+#php xdebug
+https://medium.com/@alirazalilani/debugging-php-laravel-with-visual-studio-code-37b756fb6c19
+#using these lines in php.ini
+[xDebug]
+xdebug.mode=debug
+xdebug.start_with_request=Yes
+xdebug.client_port=9003
+xdebug.remote_port=9003
+xdebug.log=/var/log/apache2/xdebug.log
+xdebug.log_level=7
+xdebug.idekey=VSCODE
+xdebug.remote_enable=1
+xdebug.remote_autostart=1
+xdebug.client_host=127.0.0.1
+zend_extension=/usr/lib/php/20210902/xdebug.so
+#set owner:group to gitpod on xdebug.log
+#do NOT use pathMapping:
+---“pathMappings”: {
+---“C:/xampp/htdocs/{your project-name}” : “${workspaceFolder}”
+---},

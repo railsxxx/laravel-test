@@ -132,7 +132,5 @@
 </html>
 
 <?php
-
-phpinfo();
-
+    phpinfo();
 ?>
